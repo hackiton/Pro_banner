@@ -1,0 +1,33 @@
+🚀 README: Color & Size Configuration Script
+This is a configuration script written in Python that guides a user through selecting an item's color style (simple or gradient) and size (predefined or custom) via a dynamic command-line interface.
+The program features a visually enhanced ("dashing") terminal experience with color-coded prompts and a stylish entry banner.
+✨ Features
+ * Dashing Interface: Uses ANSI escape codes and emojis for a visually appealing, easy-to-read console experience.
+ * Color Choice: Users can select between a Simple Color (single hue) or a Gradient Color (start/end colors).
+ * Size Choice: Users can choose from predefined sizes (Small, Medium, Large) or input a Custom Size value.
+ * Exit Option: The user can gracefully exit the program (X) at any prompt.
+ * Startup Banner: Greets the user with a large "HACKITON" ASCII art banner using the pyfiglet library.
+🛠️ Requirements
+To run this script, you must have Python installed and need the pyfiglet library for the startup banner.
+ * Install Python: (If not already installed)
+ * Install pyfiglet:
+<!-- end list -->
+pip install pyfiglet
+
+💻 How to Run
+ * Save the code as a Python file (e.g., config_script.py).
+ * Open your terminal or command prompt.
+ * Execute the script:
+<!-- end list -->
+python config_script.py
+
+📜 Code Overview
+The script is structured into functions for clarity:
+ * Colors Class: Defines constants for ANSI color codes.
+ * print_banner("HACKITON"): Displays the custom ASCII art at startup.
+ * handle_exit_choice(choice): Checks for the 'X' input and uses sys.exit() to terminate the program.
+ * get_user_preferences_dashing(): Contains the main menu loops for color and size input.
+💖 Acknowledgements
+Powered by Trinetra
+Composed by Hackiton
+Follow Hackiton.__ on Instagram for more
